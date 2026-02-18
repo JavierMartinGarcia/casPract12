@@ -1,3 +1,5 @@
 #!/bin/bash
 read x
-#INVESTIGAR EN CASA
+while find -atime "$x";do
+    rm find -atime "$x"
+done
